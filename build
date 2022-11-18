@@ -1,0 +1,4 @@
+#!/bin/bash
+cd RUTX_R/*/
+./scripts/feeds update -a
+make -j`nproc`

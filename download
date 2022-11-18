@@ -1,0 +1,8 @@
+#!/bin/bash
+rm -rf ./RUTX_R
+rm -f *.tar.gz
+mkdir -p ./RUTX_R
+wget https://wiki.teltonika-networks.com/gpl/RUT9_R_GPL_00.07.02.7.tar.gz
+tar -xf *.tar.gz -C ./RUTX_R
+rm -f *.tar.gz
+cd RUTX_R/rut*/
