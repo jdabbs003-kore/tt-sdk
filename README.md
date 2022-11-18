@@ -11,16 +11,14 @@ The project includes three scripts:
 1. build
 
 ## setup
-1. `sudo apt install -y git`
 1. `cd ~`
-1. `git clone https://github.com/jdabbs003-kore/tt-sdk.git`
-1. `cd ./tt-sdk`
-1. `sudo ./setup`
+1. `wget -O ./setup https://github.com/jdabbs003-kore/tt-sdk/blob/main/setup?raw=true`
+1. `./setup`
 
 ## download
 1. `cd ~/tt-sdk`
 1. `./download`
-
+jjkk
 ## build
 1. `cd ~/tt-sdk`
 1. `./build`
