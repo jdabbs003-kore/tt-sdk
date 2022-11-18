@@ -17,9 +17,9 @@ The project includes three scripts:
 3. `./setup`
 
 ## download
-1. `cd ~/tt-sdk`
+1. `cd ~`
 1. `./download`
 
 ## build
-1. `cd ~/tt-sdk`
+1. `cd ~`
 1. `./build`
