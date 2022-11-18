@@ -1,6 +1,8 @@
 #!/bin/bash
-apt update
-apt install -y build-essential ccache ecj fastjar file g++ gawk gettext git java-propose-classpath
-apt install -y libelf-dev libncurses5-dev libncursesw5-dev libssl1.0-dev python python2.7-dev python3
-apt install -y unzip wget python3-distutils python3-setuptools rsync subversion swig time libffi-dev
-apt install -y libtool xsltproc zlib1g-dev u-boot-tools nodejs nodejs-dev node-gyp npm jq
+sudo apt update
+sudo apt install -y build-essential ccache ecj fastjar file g++ gawk gettext git java-propose-classpath
+sudo apt install -y libelf-dev libncurses5-dev libncursesw5-dev libssl1.0-dev python python2.7-dev python3
+sudo apt install -y unzip wget python3-distutils python3-setuptools rsync subversion swig time libffi-dev
+sudo apt install -y libtool xsltproc zlib1g-dev u-boot-tools nodejs nodejs-dev node-gyp npm jq
+wget -O ./setup https://github.com/jdabbs003-kore/tt-sdk/blob/main/download?raw=true
+wget -O ./setup https://github.com/jdabbs003-kore/tt-sdk/blob/main/build?raw=true
