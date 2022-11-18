@@ -13,7 +13,8 @@ The project includes three scripts:
 ## setup
 1. `cd ~`
 1. `wget -O ./setup https://github.com/jdabbs003-kore/tt-sdk/blob/main/setup?raw=true`
-1. `./setup`
+1. `chmod 755 setup`
+3. `./setup`
 
 ## download
 1. `cd ~/tt-sdk`
